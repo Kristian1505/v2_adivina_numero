@@ -1,0 +1,11 @@
+body {
+    background-image: url(./img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: white;
+}
