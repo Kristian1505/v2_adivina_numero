@@ -1,11 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Truculenta', sans-serif;
+    color: aliceblue;
+}
+
 body {
-    background-image: url(./img/wallpaper.jpg);
+    background-image: url(./img/space_gif.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-h1 {
-    color: white;
+
+button:disabled {
+    opacity: 0.5; 
+    cursor: not-allowed;
 }
+
+#guessed-number {
+    margin-top: 20px;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 32px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons .button {
+    margin: 0 10px; 
+    font-size: 20px; 
+    padding: 10px 20px; 
+}
+
+#list-of-instructions {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+
